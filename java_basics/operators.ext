@@ -1,0 +1,73 @@
+1️⃣ Arithmetic Operators  (binary if 2 operands unary if 1 operand i++ jaise ) if ++a tgen pehele increase hoga and then use hoga if a++ then pehel use hoga badhega 
+
+Used for calculations.
+
++   // addition
+-   // subtraction
+*   // multiplication
+/   // division
+%   // modulus (remainder)
+
+Increment Confusion (Very Important)
+int a = 5;
+
+System.out.println(a++);  // prints 5
+System.out.println(a);    // 6
+
+Post-increment → use first, then increase.
+
+int b = 5;
+
+System.out.println(++b);  // prints 6
+
+Pre-increment → increase first, then use.
+
+
+
+3️⃣ Relational (Comparison) Operators
+
+Used in conditions.
+
+==  // equal to
+!=  // not equal
+>   // greater
+<   // smaller
+>=  // greater equal
+<=  // smaller equal
+this will return me true or false
+
+4️⃣ Logical Operators
+
+Used mostly in if conditions.
+
+&&  // AND
+||  // OR
+!   // NOT
+
+Example:
+
+int age = 20;
+
+if(age > 18 && age < 25) {
+    System.out.println("Young Adult");
+}
+⚠ Short Circuit Concept (Very Important)
+if(false && true)  // second part not even checked
+
+&& and || use short-circuit evaluation.
+this also gives me output as true or false
+
+
+5️⃣ Assignment Operators
+=   // assign
++=
+-=
+*=
+/=
+%=
+
+Example:
+
+int a = 5;
+a += 3;   // same as a = a +3
+basically = se pehele likhna he
