@@ -1,7 +1,7 @@
 // public class ka naam and file ka naam same hona chahihye always >>
 //hume hamesha do cheese karni padegi public class banan padega and main func banaan padega 
 
-
++ 
 // public class demo{
 //     public static void main(String[] args ){        //this is the maon method like whenevr cmpiler riuns the code wo isko searh karta 
 //         System.out.print("hello world!!");
@@ -13,7 +13,7 @@
 //system.out wo he in a static method / func 
 //static only belongs to a class and not on object to iss ke liye obj ki jarurat nahi he 
 
-//but if
+//but ifl
 
 // public class demo {
 
@@ -38,7 +38,7 @@
  // Datatypes >Primitive : jo java me khud se existe karte he .. byte , float ,int,long,char,double,boolean
 // > non primitive > jo hum banate he like user defined String,array,class,object,interface
 
-//char ch='a'; 
+//char ch='a'; ]
 // boolean var=true;  boolean var=false;\
 
 //long badi value ka integer 
@@ -103,7 +103,7 @@
 //  byte --> short --> int --> float --> long --> double   this is the chain
 // we can also  char--> int
 // .. in charetcers ki value hoti he 
-// float a=sc.nextInt();  ye alowed he like 16 will become 16.00
+// float a=sc.nextInt();  ye alowed he like 16 will become 16.00   >> obvio allowed hi hoga na here we aer coverting : int->float and float is bada than int ++
 
 
 // TYPE CASTING 
