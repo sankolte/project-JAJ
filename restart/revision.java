@@ -74,3 +74,44 @@ public class revision{
     }
 }
 
+///////////////////////////////////
+/// ARRAYS 
+// simple array traversal cha code lihuya
+
+public class main{
+    public static void main(String[] args) {
+        int arr[]=new int[5];
+        arr[2]=2;
+        arr[3]=4;
+        arr[4]=5;
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+public class main{
+    public static void main(String args[]){
+        int arr[]={1,2,3,4,5,6,7,8,9};
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+    }
+}
+
+// linear search 
+
+public class main{
+    public static void main(String args[]){
+        int arr[]={22,13,11,7,8};
+        // int target=13;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the target");
+        int target = sc.nextInt();
+        for (int i =0; i<arr.length;i++){
+            if (target==arr[i]){
+                System.out.println("Traget us at index"+i);
+            }
+        }
+    }
+}
