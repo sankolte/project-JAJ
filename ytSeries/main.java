@@ -337,3 +337,34 @@ That's why swap(int a, int b) cannot directly swap x and y
 
 // wo primitives ko and objectd ka thoda hosab alag hota he na >>
 
+// primitives me >>> pas by value buss khatam
+// obj me >> pass by the copy of the values of the ref vaibales ( thats why reffers to a same object >> )
+
+
+// and here in seocnd >> if ekk bhi variable ka value chnage hua ( basically update hua) > toh wo dusre ka bhi update hoga ( coz pointing or refering towreds the same obj)
+
+//eg<
+/*
+
+pvsm(){
+int[] arr= {1,3,5,77,4,3};
+change(arr);    --> ekk function call kar rah hu 
+}
+
+static void change(int[] nums){
+    nums[0]=99;
+
+}
+now see     arr--->[1,3,5,77,4,3]<----nums     basically nums is toh copy if the value of the arr ok >>
+
+both ref varibale refering to same array obj 
+now if nums[0]=99;
+chnage ho jaye >> if chnage occures in nums then arr me bhi chnage coz >> end of the day >> donon ekk hi he 
+   matlab if one array obj is modified then >> second array obj is also modifeid >>''
+
+   
+
+
+
+
+*/
