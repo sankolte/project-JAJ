@@ -368,3 +368,63 @@ chnage ho jaye >> if chnage occures in nums then arr me bhi chnage coz >> end of
 
 
 */
+
+// ----------------------------------------------------------------------
+
+//   SCOPE >>>
+
+/*
+
+firslty let me understand gandmsati ho swap
+
+
+public static void swap(int a, int b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+public static void main(String[] args) {
+
+    int x = 10;
+    int y = 20;
+
+    swap(x, y);
+
+    System.out.println(x);
+    System.out.println(y);
+}
+
+here we are expecting ki swap ho jaye >>> but hota nhi he 
+
+initially 
+main()
+
+x = 10
+y = 20
+
+then swap(x,y)
+
+so as we know ki copy banta he 
+
+swap()
+
+a = 10   ← copy of x
+b = 20   ← copy of y
+
+now wo swap hoga exicute 
+and now 
+a=20
+b=10
+but these are the chnages in copy right >>> like jo main the x and y unki copy he a and b right abhi unme hue he changes
+
+here wo hoga call by value se ( yes these are premetives ) here dono x,y , a ,b ye sab are not refreing to same obj coz they are premitive
+
+cut to agar kuch dusra hota other than premitives then >>> ye possible hota >> like dono variables would poibt towards same obje coz here copy banti >> 
+
+
+*/
+
+//----------------    ata yeu de SCOPE 
+
+

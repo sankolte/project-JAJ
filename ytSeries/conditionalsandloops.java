@@ -226,44 +226,58 @@ int sec=1;
 //--------------------------------------
 // switches >>
 
-public class conditionalsandloops{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        char userInput = sc.next().trim().charAt(0);
-        // * , + ,- ismene se kuch input lenege
-        //basically asia code likhnahe ke basically agar user input ho * toh multily karnage agr - ho toh substarct karneg + ho to add >>
+// public class conditionalsandloops{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         char userInput = sc.next().trim().charAt(0);
+//         // * , + ,- ismene se kuch input lenege
+//         //basically asia code likhnahe ke basically agar user input ho * toh multily karnage agr - ho toh substarct karneg + ho to add >>
 
-        switch (userInput) {
-            case '*':
-                System.out.println(a*b);
-                break;
+//         switch (userInput) {
+//             case '*':
+//                 System.out.println(a*b);
+//                 break;
 
-            case '+':
-                System.out.println(a+b);
-                break;
+//             case '+':
+//                 System.out.println(a+b);
+//                 break;
 
-            case '-':
-                if(a>b){
-                    System.out.println(a-b);
-                }else{
-                    System.out.println(b-a);
-                }
-                break;
+//             case '-':
+//                 if(a>b){
+//                     System.out.println(a-b);
+//                 }else{
+//                     System.out.println(b-a);
+//                 }
+//                 break;
 
-            case '/':
-                if(b!=0){
-                    System.out.println(a/b);
-                }
-                break;
+//             case '/':
+//                 if(b!=0){
+//                     System.out.println(a/b);
+//                 }
+//                 break;
         
-            default:
-                System.out.println("kuch na ho rahah bhai >>");
-                break;
-        }
-    }
-}
+//             default:
+//                 System.out.println("kuch na ho rahah bhai >>");
+//                 break;
+//         }
+//     }
+// }
 
 
 
+// class conditionalsandloops{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter the temp");
+//         int n = sc.nextInt();
+
+//         switch(n){
+//             case (n<18):
+//                 System.out.println("bohot thnad ");
+//                 break;
+//             case
+//         }
+//     }
+// }
