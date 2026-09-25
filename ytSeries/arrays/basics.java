@@ -47,7 +47,8 @@ public class basics {
 
 }
 
-// paasing 
+// paasing arrays in function >>>>
 
+// lets scooby do this 
 
 
