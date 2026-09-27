@@ -73,6 +73,6 @@ int[][]arr=[{1,2,3},     index 0
         sout(Arrays.tostring(array_ka_naam)[row]);
       }
 
-
+ 
 
 */
