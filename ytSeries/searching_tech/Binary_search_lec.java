@@ -54,14 +54,49 @@ public class Binary_search_lec {
         int end=arr.length-1;
         // abb find out karna pdega ki ascending he ki descending he >>given sortedd array 
 
+        boolean isAsc;
+        if(arr[end]>arr[start]){
+            isAsc=true;
+        }else{
+            isAsc=false;
+        }
+
+ 
+          while(start<=end){
+            int mid=start+(end-start)/2;                       //better way to fiding mid : this does not go out of the range>> 
+
+            // ye toh aisa hi rahega : will be same for ascenindg and descending 
+            if(target==arr[mid]){
+                return mid;
+            }
+
+            if(isAsc==true){
+                if(target>arr[mid]){
+                start=mid+1;
+            }
+            else if(target<arr[mid]){
+                  end=mid-1;
+
+            }
+            }
+            else{
+                if(target<arr[mid]){
+                start=mid+1;
+            }
+            else if(target>arr[mid]){
+                  end=mid-1;
+
+            }
+            }
+
+
+            
+        }
+        return -1;
        
     }
 
-    static boolean ascending(int arr[], int start, int end ){
-        if(arr[start]>arr[end]{
-            return 
-        })
-    }
+    
 
 
 }
